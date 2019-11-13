@@ -1,1 +1,4 @@
 /* Site Styles Go Here */
+.footer{
+    flex: right;
+}
