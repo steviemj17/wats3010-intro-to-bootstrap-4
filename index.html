@@ -21,10 +21,7 @@
 </head>
 
 <body>
-
-  <!-- (1)Navigation -->
-  <!-- TODO implement responsive navigation that matches your IA design -->
-  <!-- TODO put this nav on every page -->
+  <!-- nav -->
   <nav class="navbar fixed-top navbar-expand-lg navbar-dark bg-dark fixed-top">
     <div class="container">
       <a class="navbar-brand" href="index.html">Home</a>
@@ -55,7 +52,7 @@
     </div>
     </div>
   </nav>
-
+  <!-- end nav -->
   <header>
     <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
       <ol class="carousel-indicators">
@@ -66,29 +63,23 @@
 
       <!-- Wrapper for slides -->
 
-      <!-- TODO: (2)Add images to your repository and update this code so the carousel has proper slides. -->
+
 
       <div class="carousel-inner" role="listbox">
-        <!-- Slide One - Set the background image for this slide in the line below -->
+        <!-- Slide One -->
         <div class="carousel-item active"
           style="background-image: url('images/Record Shop Site Images/Carousel 1.jpg')">
           <div class="carousel-caption d-none d-md-block">
-            <h3>Vinyl Records</h3>
-            <p>The Most Ecletic Vinyl Collections In Town</p>
           </div>
         </div>
-        <!-- Slide Two - Set the background image for this slide in the line below -->
+        <!-- Slide Two -->
         <div class="carousel-item" style="background-image: url('images/Record Shop Site Images/Carousel 2.jpg')">
           <div class="carousel-caption d-none d-md-block">
-            <h3>Turntable</h3>
-            <p>Superior Stereo Equipement</p>
           </div>
         </div>
-        <!-- Slide Three - Set the background image for this slide in the line below -->
+        <!-- Slide Three -->
         <div class="carousel-item" style="background-image: url('images/Record Shop Site Images/Carousel 3.png')">
           <div class="carousel-caption d-none d-md-block">
-            <h3>Concert Crowd</h3>
-            <p>Access To The Best Shows In Town</p>
           </div>
         </div>
       </div>
@@ -101,6 +92,7 @@
         <span class="sr-only">Next</span>
       </a>
     </div>
+
   </header>
 
   <!-- Page Content -->
@@ -152,9 +144,6 @@
 
 
     <!-- Portfolio Section -->
-    <!-- (3)TODO: Add the proper "row" and "col" classes to make this display work the way it should. -->
-    <!-- This section shoudld be contained in a row. -->
-    <!-- This section should have columns that are 4 units wide at size "md" and above, but 6 units wide at size "sm" and below. -->
 
     <h2>Warm Butter Servings</h2>
 
@@ -259,6 +248,7 @@
       </div>
     </div>
     <!-- /.row -->
+    <!-- end portfolio -->
 
     <!-- Features Section -->
     <div class="row">
@@ -305,15 +295,15 @@
 
   <!-- Footer -->
 
-  <!-- (4)TODO User flex-box to replace the centered paragraph with copyright and date with 2 paragraphs: the first paragraph is left aligned and contains copyright and date 
-      and one that is right aligned and contains your name.
-      Put the footer on every page.
-    -->
   <footer class="py-5 bg-dark">
-      <div id="footer">
-          <span class="text-white" style="float:left;">Copyright &copy; 2019</span>
-          <span class="text-white" style="float:right;">Stephen Johnson</span>
-    </footer>
+
+    <div class="container">
+      <div class="footer-flex">
+        <p class="footer-item-flex text-white">Copyright &copy; 2019</p>
+        <p class="footer-item-flex text-white">Stephen Johnson</p>
+      </div>
+    </div>
+  </footer>
 
   <!-- Bootstrap core JavaScript -->
   <script src="vendor/jquery/jquery.min.js"></script>
