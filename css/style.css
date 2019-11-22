@@ -1,9 +1,10 @@
-.footer-flex{
-display:flex;
-flex-direction: row;
-justify-content: space-between;
-}
-  
-.footer-item-flex{
-flex: 0 1 auto;
-}
+    .footer-flex{
+        display:flex;
+        flex-direction: row;
+        justify-content: space-between;
+        }
+          
+        .footer-item-flex{
+        flex: 0 1 auto;
+        }
+
