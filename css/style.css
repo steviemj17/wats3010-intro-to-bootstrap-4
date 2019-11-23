@@ -1,14 +1,24 @@
-    .footer-flex{
+
+.footer-flex{
         display:flex;
         flex-direction: row;
         justify-content: space-between;
         }
           
-        .footer-item-flex{
+        
+.footer-item-flex{
         flex: 0 1 auto;
         }
 
 img:hover {
     transform: scale(1.1);
     transition: 1s ease-in-out;
+}
+
+.card-header {
+    background-color:#87CEEB;
+}
+
+.call-to-action-button {
+    background-color: #87CEEB !important;
 }
